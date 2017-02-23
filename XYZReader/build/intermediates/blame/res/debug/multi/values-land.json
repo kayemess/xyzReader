@@ -159,9 +159,28 @@
                     "startLine": 10,
                     "startColumn": 4,
                     "startOffset": 572,
-                    "endLine": 13,
+                    "endColumn": 49,
+                    "endOffset": 617
+                },
+                "from": {
+                    "file": "/Users/kristenwoodward/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/values-land/macro_layout.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 146,
+                        "endColumn": 49,
+                        "endOffset": 191
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 622,
+                    "endLine": 14,
                     "endColumn": 12,
-                    "endOffset": 749
+                    "endOffset": 799
                 },
                 "from": {
                     "file": "/Users/kristenwoodward/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/values-land/values-land.xml",
