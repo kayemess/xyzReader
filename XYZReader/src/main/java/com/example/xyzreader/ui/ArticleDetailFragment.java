@@ -166,11 +166,12 @@ public class ArticleDetailFragment extends Fragment implements
 
         mPhotoView = (ImageView) mRootView.findViewById(R.id.photo);
 
-        String newTransitionName = getString(R.string.transition_photo) + String.valueOf(mArticlePosition);
+        String newTransitionName = getString(R.string.transition_photo) + String.valueOf(mItemId);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             mPhotoView.setTransitionName(newTransitionName);
             mPhotoView.setTag(newTransitionName);
+            Log.i("transition_name_dest",mPhotoView.getTransitionName());
         }
 
         mPhotoContainerView = mRootView.findViewById(R.id.photo_container);

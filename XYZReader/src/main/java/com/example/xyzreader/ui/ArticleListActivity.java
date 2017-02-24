@@ -20,6 +20,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
 import android.text.format.DateUtils;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.MenuItem;
 import android.view.View;
@@ -240,6 +241,7 @@ public class ArticleListActivity extends AppCompatActivity implements
                 public void onClick(View view) {
                     ImageView targetPhotoIV = (ImageView) view.findViewById(R.id.thumbnail);
                     String transitionName = targetPhotoIV.getTransitionName();
+                    Log.i("transition_name_orig",transitionName);
 
                     Intent intent = new Intent(Intent.ACTION_VIEW,
                             ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition())));
@@ -279,7 +281,7 @@ public class ArticleListActivity extends AppCompatActivity implements
 
             holder.thumbnailView.setAspectRatio(mCursor.getFloat(ArticleLoader.Query.ASPECT_RATIO));
 
-            String thumbnailTransitionName = getString(R.string.transition_photo) + position;
+            String thumbnailTransitionName = getString(R.string.transition_photo) + mCursor.getString(ArticleLoader.Query._ID);
 
             // create transition name for current viewholder using string const and item ID
             if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
