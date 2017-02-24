@@ -11,166 +11,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15462ef5-ffe1-457f-9736-29184f83236b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/assets/debug/Rosario-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/multi/anim.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/multi/color.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/multi/drawable.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/design/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/design/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/design/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/design/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/design/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/design/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/design/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/design/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/design/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/design/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/design/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/design/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/appcompat/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/appcompat/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/appcompat/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/appcompat/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/appcompat/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/cardview/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/cardview/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/cardview/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/cardview/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/cardview/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/cardview/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/recyclerview/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/recyclerview/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/recyclerview/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/recyclerview/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/recyclerview/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$fraction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$mipmap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$transition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/data/ArticleLoader$Query.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/data/ArticleLoader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/data/ItemsContract$Items.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/data/ItemsContract$ItemsColumns.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/data/ItemsContract.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/data/ItemsDatabase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/data/ItemsProvider$Tables.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/data/ItemsProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/data/SelectionBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/data/UpdaterService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/remote/Config.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/remote/RemoteEndpointUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleDetailActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleDetailActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleDetailActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleDetailActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleDetailActivity$MyPagerAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleDetailActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleDetailFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleDetailFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleDetailFragment$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleDetailFragment$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleDetailFragment$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleDetailFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleListActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleListActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleListActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleListActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleListActivity$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleListActivity$Adapter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleListActivity$Adapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleListActivity$ViewHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleListActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/DividerItemDecoration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/DrawInsetsFrameLayout$OnInsetsCallback.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/DrawInsetsFrameLayout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/DynamicHeightNetworkImageView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ImageLoaderHelper$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ImageLoaderHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/MaxWidthLinearLayout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ObservableScrollView$Callbacks.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ObservableScrollView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/TransitionListenerAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental-safeguard/debug/tag.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/packageDebug/zip-cache/ULiRCRfiUbqCQzYP6voj48vMwCk=" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_ff97a0d68ee1228651c30b0462df1e33b47a78dd.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_8daa9e089fa4b58d4acbeba928b749841fb3cbfb.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.4.0_d9b1ee3ead1aa2b0a616f44b45e59ff4451994a6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-design-23.4.0_1ef453a832d6c82dd3c0661671e2813948380d1b.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-palette-v7-23.4.0_433773caa7985b9731d7b72ceb12ff0ed0019e35.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_d5037c6a15ddcec702b6e054c285c81d73bf6a09.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-support-v13-23.4.0_ca69b834f6711240d7f108b24e2fbb28804e2001.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_4993e3f596dfefd7d7a8344609e359d56ae1599f.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_3c150d4da81648c6e92e19568b6d3f55b50d8fb1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/debug_0a55beac1d93c3e1d74983f3bccbdc86bede9ac8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_116bc3703a05f714e4f67e2e1b18a7bf5dcc9408.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_2e40e808473942c06b859e96689a4ac50e30a964.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/okhttp-3.1.2_e38bfcbeab60cdc6ee236d07289c2ed95fde1fe7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/okio-1.6.0_a4f2212e7a3839c41e9dec53f3d4f39070e82917.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/picasso-2.5.2_33336e2df865d95f430cc87b9c2040738cb8fd72.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_95d3e6a7cffb017f01fbf49664f539db90a07a38.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/volley_89ea3a008d6893a63e82118f79af4c8d00229677.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/outputs/apk/XYZReader-debug.apk" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_XYZReader_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_XYZReader_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_XYZReader_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_XYZReader_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_XYZReader_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_XYZReader_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/XYZReader/build/generated/source/r/debug/android/support/design/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/XYZReader/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/generated/source/r/debug/android/support/v7/cardview/R.java" afterPath="$PROJECT_DIR$/XYZReader/build/generated/source/r/debug/android/support/v7/cardview/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/generated/source/r/debug/android/support/v7/recyclerview/R.java" afterPath="$PROJECT_DIR$/XYZReader/build/generated/source/r/debug/android/support/v7/recyclerview/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/generated/source/r/debug/com/example/xyzreader/R.java" afterPath="$PROJECT_DIR$/XYZReader/build/generated/source/r/debug/com/example/xyzreader/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/multi/values-w800dp-v13.json" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/multi/values-w800dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/layout/activity_article_list.xml" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/layout/activity_article_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/values-w800dp-v13/values-w800dp-v13.xml" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/values-w800dp-v13/values-w800dp-v13.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ArticleDetailActivity.java" afterPath="$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ArticleDetailActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ArticleDetailFragment.java" afterPath="$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ArticleDetailFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/src/main/res/layout/activity_article_list.xml" afterPath="$PROJECT_DIR$/XYZReader/src/main/res/layout/activity_article_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/src/main/res/values-w800dp/macro_layout.xml" afterPath="$PROJECT_DIR$/XYZReader/src/main/res/values-w800dp/macro_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/XYZReader/src/main/res/values/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/src/main/res/values/macro_layout.xml" afterPath="$PROJECT_DIR$/XYZReader/src/main/res/values/macro_layout.xml" />
     </list>
     <ignored path="xyzreader.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -206,7 +60,7 @@
       <file leaf-file-name="ArticleDetailFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ArticleDetailFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
+            <state relative-caret-position="777">
               <caret line="253" column="0" selection-start-line="253" selection-start-column="0" selection-end-line="253" selection-end-column="0" />
               <folding>
                 <element signature="e#6737#6825#0" expanded="false" />
@@ -2209,7 +2063,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/adp-activity-transitions-master" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
-    <property name="device.picker.selection" value="00e1867365859c81" />
+    <property name="device.picker.selection" value="Nexus_5_API_25" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -2548,7 +2402,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285171" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34214002" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34214002" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -3096,7 +2950,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ArticleDetailFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
+        <state relative-caret-position="777">
           <caret line="253" column="0" selection-start-line="253" selection-start-column="0" selection-end-line="253" selection-end-column="0" />
           <folding>
             <element signature="e#6737#6825#0" expanded="false" />
