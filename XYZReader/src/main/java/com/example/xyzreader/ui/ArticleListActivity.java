@@ -74,15 +74,15 @@ public class ArticleListActivity extends AppCompatActivity implements
                     // If startingPosition != currentPosition the user must have swiped to a
                     // different page in the DetailsActivity. We must update the shared element
                     // so that the correct one falls into place.
-                    mCursor = getContentResolver().query(ItemsContract.BASE_URI,null,null,null,null);
-                    mCursor.moveToPosition(currentPosition);
-                    String newTransitionName = getString(R.string.transition_photo) + mCursor.getString(ArticleLoader.Query._ID);
-                    View newSharedElement = mRecyclerView.findViewWithTag(newTransitionName);
+                    //mCursor = getContentResolver().query(ItemsContract.BASE_URI,null,null,null,null);
+                    //mCursor.moveToPosition(currentPosition);
+                    String transitionName = getString(R.string.transition_photo) + currentPosition;
+                    View newSharedElement = mRecyclerView.findViewWithTag(transitionName);
                     if (newSharedElement != null) {
                         names.clear();
-                        names.add(newTransitionName);
+                        names.add(transitionName);
                         sharedElements.clear();
-                        sharedElements.put(newTransitionName, newSharedElement);
+                        sharedElements.put(transitionName, newSharedElement);
                     }
                 }
 
@@ -107,6 +107,7 @@ public class ArticleListActivity extends AppCompatActivity implements
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_article_list);
+        setExitSharedElementCallback(mCallback);
 
         mSwipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh_layout);
 
@@ -140,8 +141,8 @@ public class ArticleListActivity extends AppCompatActivity implements
 
     @Override
     protected void onResume() {
-        super.onResume();
         mIsDetailsActivityStarted = false;
+        super.onResume();
     }
 
     private void refresh() {
@@ -158,6 +159,7 @@ public class ArticleListActivity extends AppCompatActivity implements
     @Override
     public void onActivityReenter(int resultCode, Intent data) {
         super.onActivityReenter(resultCode, data);
+        mIsDetailsActivityStarted = false;
         mTmpReenterState = new Bundle(data.getExtras());
         int startingPosition = mTmpReenterState.getInt(EXTRA_STARTING_ARTICLE_POSITION);
         int currentPosition = mTmpReenterState.getInt(EXTRA_CURRENT_ARTICLE_POSITION);
@@ -277,13 +279,15 @@ public class ArticleListActivity extends AppCompatActivity implements
 
             holder.thumbnailView.setAspectRatio(mCursor.getFloat(ArticleLoader.Query.ASPECT_RATIO));
 
+            String thumbnailTransitionName = getString(R.string.transition_photo) + position;
+
             // create transition name for current viewholder using string const and item ID
             if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
-                holder.thumbnailView.setTransitionName(getString(R.string.transition_photo) + getItemId(position));
+                holder.thumbnailView.setTransitionName(thumbnailTransitionName);
             }
 
             // set tag for thumbnail
-            //holder.thumbnailView.setTag(thumbnailTransitionName);
+            holder.thumbnailView.setTag(thumbnailTransitionName);
 
             mArticlePosition = position;
         }
