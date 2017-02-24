@@ -55,10 +55,13 @@ public class ArticleListActivity extends AppCompatActivity implements
     private RecyclerView mRecyclerView;
     protected Context mContext;
 
+    private long mCurrentArticleID = -1;
+
     // shared element callback code adapted from Github example from alexjlockwood
     // https://github.com/alexjlockwood/adp-activity-transitions
     static final String EXTRA_STARTING_ARTICLE_POSITION = "extra_starting_item_position";
     static final String EXTRA_CURRENT_ARTICLE_POSITION = "extra_current_item_position";
+    static final String EXTRA_CURRENT_ARTICLE_ID = "extra_current_item_id";
 
     private Bundle mTmpReenterState;
     private boolean mIsDetailsActivityStarted;
@@ -68,6 +71,7 @@ public class ArticleListActivity extends AppCompatActivity implements
     private final SharedElementCallback mCallback = new SharedElementCallback() {
         @Override
         public void onMapSharedElements(List<String> names, Map<String, View> sharedElements) {
+            Log.i("sharedElementCallback: ", "entered");
             if (mTmpReenterState != null) {
                 int startingPosition = mTmpReenterState.getInt(EXTRA_STARTING_ARTICLE_POSITION);
                 int currentPosition = mTmpReenterState.getInt(EXTRA_CURRENT_ARTICLE_POSITION);
@@ -77,13 +81,16 @@ public class ArticleListActivity extends AppCompatActivity implements
                     // so that the correct one falls into place.
                     //mCursor = getContentResolver().query(ItemsContract.BASE_URI,null,null,null,null);
                     //mCursor.moveToPosition(currentPosition);
-                    String transitionName = getString(R.string.transition_photo) + currentPosition;
-                    View newSharedElement = mRecyclerView.findViewWithTag(transitionName);
-                    if (newSharedElement != null) {
-                        names.clear();
-                        names.add(transitionName);
-                        sharedElements.clear();
-                        sharedElements.put(transitionName, newSharedElement);
+                    if(mCurrentArticleID != -1) {
+                        String transitionName = getString(R.string.transition_photo) + String.valueOf(mCurrentArticleID);
+                        Log.i("SharedElementCallback: ", transitionName);
+                        View newSharedElement = mRecyclerView.findViewWithTag(transitionName);
+                        if (newSharedElement != null) {
+                            names.clear();
+                            names.add(transitionName);
+                            sharedElements.clear();
+                            sharedElements.put(transitionName, newSharedElement);
+                        }
                     }
                 }
 
@@ -153,6 +160,8 @@ public class ArticleListActivity extends AppCompatActivity implements
     @Override
     protected void onResume() {
         mIsDetailsActivityStarted = false;
+        Log.i("Main Activity: ","activity resumed");
+        Log.i("Main Activity Resume: ","Details activity started " + mIsDetailsActivityStarted);
         super.onResume();
     }
 
@@ -170,10 +179,14 @@ public class ArticleListActivity extends AppCompatActivity implements
     @Override
     public void onActivityReenter(int resultCode, Intent data) {
         super.onActivityReenter(resultCode, data);
+        //setExitSharedElementCallback(mCallback);
         mIsDetailsActivityStarted = false;
+        Log.i("Main Activity: ","activity re-entered");
+        Log.i("Main Activity Reenter: ","Details activity started " + mIsDetailsActivityStarted);
         mTmpReenterState = new Bundle(data.getExtras());
         int startingPosition = mTmpReenterState.getInt(EXTRA_STARTING_ARTICLE_POSITION);
         int currentPosition = mTmpReenterState.getInt(EXTRA_CURRENT_ARTICLE_POSITION);
+        mCurrentArticleID = mTmpReenterState.getLong(EXTRA_CURRENT_ARTICLE_ID);
         if (startingPosition != currentPosition) {
             mRecyclerView.scrollToPosition(currentPosition);
         }
@@ -255,6 +268,7 @@ public class ArticleListActivity extends AppCompatActivity implements
 
                     Intent intent = new Intent(Intent.ACTION_VIEW,
                             ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition())));
+                    Log.i("Position @ click: ",String.valueOf(mArticlePosition));
                     intent.putExtra(EXTRA_STARTING_ARTICLE_POSITION,mArticlePosition);
 
                     Bundle bundle = ActivityOptions

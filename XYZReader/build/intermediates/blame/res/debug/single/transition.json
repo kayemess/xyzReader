@@ -4,6 +4,10 @@
         "source": "/Users/kristenwoodward/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/transition/details_window_enter_transition.xml"
     },
     {
+        "merged": "/Users/kristenwoodward/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/transition/explode.xml",
+        "source": "/Users/kristenwoodward/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/transition/explode.xml"
+    },
+    {
         "merged": "/Users/kristenwoodward/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/transition/details_window_return_transition.xml",
         "source": "/Users/kristenwoodward/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/transition/details_window_return_transition.xml"
     },

@@ -114,6 +114,7 @@ public class ArticleDetailFragment extends Fragment implements
         arguments.putInt(ARG_STARTING_ARTICLE_IMAGE_POSITION, startingPosition);
         ArticleDetailFragment fragment = new ArticleDetailFragment();
         fragment.setArguments(arguments);
+        //Log.i("Fragment: ","New Instance");
         return fragment;
     }
 
@@ -131,6 +132,7 @@ public class ArticleDetailFragment extends Fragment implements
             mStartingPosition = getArguments().getInt(ARG_STARTING_ARTICLE_IMAGE_POSITION);
         }
 
+        //Log.i("Fragment: ","On create");
         mIsCard = getResources().getBoolean(R.bool.detail_is_card);
         mStatusBarFullOpacityBottom = getResources().getDimensionPixelSize(R.dimen.detail_card_top_margin);
         mIsTransitioning = savedInstanceState == null && mStartingPosition == mArticlePosition;
@@ -190,6 +192,7 @@ public class ArticleDetailFragment extends Fragment implements
 
         bindViews();
         updateStatusBar();
+        //Log.i("Fragment: ","On create views");
         return mRootView;
     }
 

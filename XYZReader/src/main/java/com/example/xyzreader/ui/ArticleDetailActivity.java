@@ -31,6 +31,8 @@ import com.example.xyzreader.data.ItemsContract;
 import java.util.List;
 import java.util.Map;
 
+import static android.R.attr.transitionName;
+import static com.example.xyzreader.ui.ArticleListActivity.EXTRA_CURRENT_ARTICLE_ID;
 import static com.example.xyzreader.ui.ArticleListActivity.EXTRA_CURRENT_ARTICLE_POSITION;
 import static com.example.xyzreader.ui.ArticleListActivity.EXTRA_STARTING_ARTICLE_POSITION;
 
@@ -61,7 +63,7 @@ public class ArticleDetailActivity extends AppCompatActivity
                     // remove the old shared element and replace it with the new shared element
                     // that should be transitioned instead.
                     names.clear();
-                    String elementTransitionName = getString(R.string.transition_photo) + String.valueOf(mPagerAdapter.getItemPosition(mPager));
+                    String elementTransitionName = getString(R.string.transition_photo) + String.valueOf(mSelectedItemId);
                     names.add(elementTransitionName);
                     sharedElements.clear();
                     sharedElements.put(elementTransitionName, sharedElement);
@@ -144,6 +146,10 @@ public class ArticleDetailActivity extends AppCompatActivity
         mUpButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                ImageView photoIV = (ImageView) mPager.findViewById(R.id.photo);
+                String transitionName = getString(R.string.transition_photo) + mSelectedItemId;
+                photoIV.setTransitionName(transitionName);
+                Log.i("Tran_name_return_state ", transitionName);
                 onBackPressed();
             }
         });
@@ -182,6 +188,7 @@ public class ArticleDetailActivity extends AppCompatActivity
         data.putExtra(EXTRA_STARTING_ARTICLE_POSITION, mStartingPosition);
         data.putExtra(EXTRA_CURRENT_ARTICLE_POSITION, mCurrentPosition);
         setResult(RESULT_OK, data);
+        data.putExtra(EXTRA_CURRENT_ARTICLE_ID,mSelectedItemId);
         super.finishAfterTransition();
     }
 
