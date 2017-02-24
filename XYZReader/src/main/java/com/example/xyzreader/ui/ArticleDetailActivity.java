@@ -146,10 +146,11 @@ public class ArticleDetailActivity extends AppCompatActivity
         mUpButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // find ImageView and set it's transition name to ensure correct name before
+                // returning to the ArticleListActivity
                 ImageView photoIV = (ImageView) mPager.findViewById(R.id.photo);
                 String transitionName = getString(R.string.transition_photo) + mSelectedItemId;
                 photoIV.setTransitionName(transitionName);
-                Log.i("Tran_name_return_state ", transitionName);
                 onBackPressed();
             }
         });
@@ -188,6 +189,8 @@ public class ArticleDetailActivity extends AppCompatActivity
         data.putExtra(EXTRA_STARTING_ARTICLE_POSITION, mStartingPosition);
         data.putExtra(EXTRA_CURRENT_ARTICLE_POSITION, mCurrentPosition);
         setResult(RESULT_OK, data);
+        // pass through item ID so that it can be used to set transition name in ArticleListActivity
+        // SharedElementCallback method
         data.putExtra(EXTRA_CURRENT_ARTICLE_ID,mSelectedItemId);
         super.finishAfterTransition();
     }

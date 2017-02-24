@@ -52,31 +52,6 @@ public class ArticleDetailFragment extends Fragment implements
     private static final String ARG_ARTICLE_IMAGE_POSITION = "arg_article_image_position";
     private static final String ARG_STARTING_ARTICLE_IMAGE_POSITION = "arg_starting_article_image_position";
 
-    private final Callback mImageCallback = new Callback() {
-        @Override
-        public void onSuccess() {
-            startPostponedEnterTransition();
-        }
-
-        @Override
-        public void onError()  {
-            startPostponedEnterTransition();
-        }
-    };
-
-    private void startPostponedEnterTransition() {
-        if (mArticlePosition == mStartingPosition) {
-            mPhotoView.getViewTreeObserver().addOnPreDrawListener(new ViewTreeObserver.OnPreDrawListener() {
-                @Override
-                public boolean onPreDraw() {
-                    mPhotoView.getViewTreeObserver().removeOnPreDrawListener(this);
-                    getActivity().startPostponedEnterTransition();
-                    return true;
-                }
-            });
-        }
-    }
-
     public static final String ARG_ITEM_ID = "item_id";
     private static final float PARALLAX_FACTOR = 1.25f;
 
@@ -114,7 +89,6 @@ public class ArticleDetailFragment extends Fragment implements
         arguments.putInt(ARG_STARTING_ARTICLE_IMAGE_POSITION, startingPosition);
         ArticleDetailFragment fragment = new ArticleDetailFragment();
         fragment.setArguments(arguments);
-        //Log.i("Fragment: ","New Instance");
         return fragment;
     }
 
@@ -132,7 +106,6 @@ public class ArticleDetailFragment extends Fragment implements
             mStartingPosition = getArguments().getInt(ARG_STARTING_ARTICLE_IMAGE_POSITION);
         }
 
-        //Log.i("Fragment: ","On create");
         mIsCard = getResources().getBoolean(R.bool.detail_is_card);
         mStatusBarFullOpacityBottom = getResources().getDimensionPixelSize(R.dimen.detail_card_top_margin);
         mIsTransitioning = savedInstanceState == null && mStartingPosition == mArticlePosition;
@@ -173,7 +146,6 @@ public class ArticleDetailFragment extends Fragment implements
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             mPhotoView.setTransitionName(newTransitionName);
             mPhotoView.setTag(newTransitionName);
-            Log.i("transition_name_dest",mPhotoView.getTransitionName());
         }
 
         mPhotoContainerView = mRootView.findViewById(R.id.photo_container);
@@ -192,7 +164,6 @@ public class ArticleDetailFragment extends Fragment implements
 
         bindViews();
         updateStatusBar();
-        //Log.i("Fragment: ","On create views");
         return mRootView;
     }
 
@@ -268,23 +239,18 @@ public class ArticleDetailFragment extends Fragment implements
                             + "</font>"));
             bodyView.setText(Html.fromHtml(mCursor.getString(ArticleLoader.Query.BODY)));
 
-            RequestCreator articleImageRequest = Picasso.with(getActivity()).load(mCursor.getString(ArticleLoader.Query.PHOTO_URL));
+            Picasso.with(getActivity())
+                    .load(mCursor.getString(ArticleLoader.Query.PHOTO_URL))
+                    .into(mPhotoView);
 
-/*            if(mIsTransitioning){
-                articleImageRequest.noFade();
-                mPhotoView.setAlpha(0f);
-
-                if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
-                    getActivity().getWindow().getSharedElementEnterTransition().addListener(new TransitionListenerAdapter() {
-                        @Override
-                        public void onTransitionEnd(Transition transition) {
-                            mPhotoView.animate().setDuration(mBackgroundImageFadeMillis).alpha(1f);
-                        }
-                    });
+            mPhotoView.getViewTreeObserver().addOnPreDrawListener(new ViewTreeObserver.OnPreDrawListener() {
+                @Override
+                public boolean onPreDraw() {
+                    mPhotoView.getViewTreeObserver().removeOnPreDrawListener(this);
+                    getActivity().startPostponedEnterTransition();
+                    return true;
                 }
-            }*/
-
-            articleImageRequest.into(mPhotoView,mImageCallback);
+            });
 
         } else {
             mRootView.setVisibility(View.GONE);

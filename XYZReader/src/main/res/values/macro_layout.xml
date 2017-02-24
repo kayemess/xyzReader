@@ -4,6 +4,9 @@
     <dimen name="list_toolbar_side_margin">0dp</dimen>
     <integer name="list_column_count">2</integer>
 
+    <!-- toolbar -->
+    <dimen name="app_name_side_margin">9dp</dimen> <!-- @list_side_margin + 4pd -->
+
     <!-- detail -->
     <bool name="detail_is_card">false</bool>
     <dimen name="detail_photo_height">304dp</dimen>

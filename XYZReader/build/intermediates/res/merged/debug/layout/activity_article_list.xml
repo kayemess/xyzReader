@@ -29,7 +29,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
-                android:paddingStart="@dimen/list_side_margin"
+                android:layout_marginLeft="@dimen/app_name_side_margin"
                 android:contentDescription="@string/app_name"
                 android:src="@drawable/logo" />
 
@@ -51,6 +51,7 @@
             android:paddingBottom="28dp"
             android:paddingLeft="@dimen/list_side_margin"
             android:paddingRight="@dimen/list_side_margin"
+            android:paddingTop="@dimen/list_side_margin"
             android:scrollbarStyle="outsideOverlay" />
 
     </android.support.v4.widget.SwipeRefreshLayout>
